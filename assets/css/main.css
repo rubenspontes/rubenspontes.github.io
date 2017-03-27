@@ -1,0 +1,297 @@
+/*===== VARIABLES =====*/
+/*===== RESET =====*/
+* {
+  margin: 0;
+  padding: 0; }
+
+html,
+body {
+  height: 100%; }
+
+h1,
+h2 {
+  color: #fefefe;
+  font-family: "Montserrat", sans-serif; }
+
+h3,
+h4,
+p {
+  color: #fefefe;
+  font-family: "Open Sans", sans-serif; }
+
+/*===== HEADER =====*/
+.header {
+  background: url(../../assets/img/bg-header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto; }
+
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 90%; }
+
+.clear {
+  display: none; }
+
+.book h1 {
+  font-size: 2.3em;
+  margin: 2.5% 0;
+  text-transform: uppercase; }
+
+.book h2 {
+  font-size: 1.25em;
+  font-weight: 700; }
+
+.book h3 {
+  font-size: 1em;
+  font-weight: 400;
+  margin: 0 0 8% 0;
+  padding-top: 8%;
+  text-align: center; }
+
+.book h4 {
+  font-size: 0.9em;
+  font-weight: 400;
+  margin: 2.5% 0; }
+
+.book-text {
+  margin: 0 auto 0 0;
+  width: 80%; }
+
+.book-text p {
+  font-size: 0.9em;
+  margin: 5% 0;
+  text-align: justify; }
+
+.book-image {
+  margin: 10% auto; }
+
+.book-image img {
+  display: block;
+  margin: 0 auto;
+  width: 80%; }
+
+.book-links {
+  margin: 5% auto 0 auto;
+  padding-bottom: 10%; }
+
+.book-links p {
+  font-size: 1.4em;
+  text-align: center; }
+
+.links {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+
+.links a {
+  border: 2px solid #fefefe;
+  color: #fefefe;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  margin: 2.5% 5%;
+  padding: 2% 3%;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.links a:hover {
+  background-color: #fefefe;
+  color: #0a0a0a;
+  transition: 0.2s; }
+
+/*===== AUTOR =====*/
+.author {
+  background-color: #f5f5f5;
+  color: #0a0a0a;
+  height: auto; }
+
+.author-info h2 {
+  color: #0a0a0a;
+  font-size: 1.6em;
+  font-weight: 400;
+  margin: 0 0 5% 0;
+  padding-top: 10%; }
+
+.author-info p {
+  color: #0a0a0a;
+  font-size: 0.9em;
+  margin: 2.5% 0 0 0;
+  text-align: justify; }
+
+.author-info p:last-child {
+  padding-bottom: 10%; }
+
+/*===== LANDING =====*/
+.landing {
+  background: url(../../assets/img/bg-landing.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto; }
+
+.landing-text h3 {
+  font-size: 1.6em;
+  font-weight: 400;
+  margin: 0 0 5% 0;
+  padding-top: 10%;
+  text-align: center; }
+
+.landing-text p {
+  font-size: 0.9em;
+  margin: 2.5% 0 0 0;
+  padding-bottom: 10%;
+  text-align: center; }
+
+/*===== FOOTER =====*/
+.footer {
+  background-color: #0a0a0a; }
+
+.footer p {
+  font-size: 0.8em;
+  padding: 5% 0;
+  text-align: center; }
+
+/*===== MEDIA QUERIES =====*/
+@media screen and (min-width: 768px) {
+  .book h4,
+  .book-text p,
+  .author-info p,
+  .landing-text p {
+    font-size: 1em; }
+
+  /* Header */
+  .container {
+    width: 85%; }
+
+  .book h1 {
+    font-size: 4em;
+    line-height: 1.2em;
+    margin: 1% 0; }
+
+  .book h2 {
+    font-size: 1.8em;
+    margin-bottom: 5%; }
+
+  .book h3 {
+    font-size: 1.2em;
+    margin-bottom: 8%;
+    padding-top: 6%; }
+
+  .book h4 {
+    margin: 1% 0; }
+
+  .book-text p {
+    margin: 2.5% 0; }
+
+  .book-image {
+    float: right;
+    margin-right: 0;
+    margin-top: 2.5%;
+    width: 50%; }
+
+  .book-image img {
+    width: 100%; }
+
+  .book-links {
+    margin-left: 0;
+    margin-top: 5%;
+    padding-bottom: 0;
+    width: 50%; }
+
+  .clear {
+    display: block;
+    clear: both; }
+
+  /* Autor */
+  .author-info h2 {
+    font-size: 1.8em;
+    margin-bottom: 5%;
+    padding-top: 7.5%; }
+
+  .author-info p:last-child {
+    padding-bottom: 7.5%; }
+
+  /* Landing */
+  .landing-text h3 {
+    font-size: 1.8em;
+    margin-bottom: 5%;
+    padding-top: 7.5%; }
+
+  .landing-text p {
+    padding-bottom: 7.5%; }
+
+  /* Footer */
+  .footer p {
+    padding: 1.2% 0; } }
+@media screen and (min-width: 992px) {
+  .header {
+    height: 850px; }
+
+  .book-image {
+    width: 45%; }
+
+  .author-info p {
+    width: 50%; } }
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 80%; }
+
+  .clear {
+    display: none; }
+
+  .header {
+    height: 800px; }
+
+  .book h1 {
+    font-size: 6em;
+    width: 80%; }
+
+  .book h2 {
+    font-size: 2.4em;
+    margin-bottom: 2.5%; }
+
+  .book h3 {
+    font-size: 1.4em;
+    margin-bottom: 6%;
+    padding-top: 4%; }
+
+  .book-text p {
+    margin: 1.5% 0;
+    width: 65%; }
+
+  .book-image {
+    float: none;
+    position: absolute;
+    right: 10%;
+    top: 55%;
+    width: 30%; }
+
+  .links a {
+    border-width: 1px;
+    display: block;
+    text-align: center;
+    width: 25%; }
+
+  /* Autor */
+  .author-info h2 {
+    font-size: 4em;
+    padding-top: 10%; }
+
+  .author-info p {
+    width: 90%; }
+
+  .author-info p:last-child {
+    padding-bottom: 10%; }
+
+  /* Landing */
+  .landing-text h3 {
+    font-size: 4em;
+    margin-bottom: 2.5%;
+    padding-top: 7.5%; }
+
+  .landing-text p {
+    margin: 2.5% 10% 0 10%;
+    width: 80%; } }
+
+/*# sourceMappingURL=main.css.map */
