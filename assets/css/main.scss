@@ -114,6 +114,7 @@ p {
         font-size: 1.2em;
         margin: 2.5% 5%;
         padding: 2% 3%;
+        text-align: center;
         text-decoration: none;
         text-transform: uppercase;
     }
@@ -254,6 +255,10 @@ p {
         width: 50%;
     }
 
+    .links a {
+        margin: 2.5%;
+    }
+
     .clear {
         display: block;
         clear: both;
@@ -354,7 +359,6 @@ p {
     .links a {
         border-width: 1px;
         display: block;
-        text-align: center;
         width: 25%;
     }
 
