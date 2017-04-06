@@ -161,8 +161,21 @@ p {
 
 .footer p {
   font-size: 0.8em;
-  padding: 5% 0;
   text-align: center; }
+
+.footer p:nth-child(1) {
+  padding-top: 2.5%; }
+
+.footer p:nth-child(2) {
+  padding-bottom: 2.5%; }
+
+.footer p a {
+  color: #fefefe;
+  font-weight: 700;
+  text-decoration: none; }
+
+.footer p a:hover {
+  text-decoration: underline; }
 
 /*===== MEDIA QUERIES =====*/
 @media screen and (min-width: 768px) {
@@ -240,8 +253,11 @@ p {
     padding-bottom: 7.5%; }
 
   /* Footer */
-  .footer p {
-    padding: 1.2% 0; } }
+  .footer p:nth-child(1) {
+    padding-top: 1.2%; }
+
+  .footer p:nth-child(2) {
+    padding-bottom: 1.2%; } }
 @media screen and (min-width: 992px) {
   .header {
     height: 850px; }
